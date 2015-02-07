@@ -1,0 +1,37 @@
+pane	0	1	:bash	1	:*	1	:/home/alex	1	bash	:
+pane	2	1	:bash	1	:*	1	:/home/alex	1	bash	:
+pane	4	1	:bash	1	:*	1	:/home/alex	1	bash	:
+pane	arte	1	:SCSS	0	: 	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/Autograph/sites/all/themes/autograph/sass/components	1	gvim	:gvim -v _fr.scss
+pane	arte	2	:HTML	0	: 	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/Autograph/sites/all/themes/autograph/templates	1	gvim	:gvim -v html.tpl.php
+pane	arte	3	:JS	0	: 	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/Autograph/sites/all/themes/autograph/js	1	gvim	:gvim -v script.js
+pane	arte	4	:TERMINAL	1	:*	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/Autograph/sites/all/themes/autograph	1	gvim	:gvim -v config.rb
+pane	arte	4	:TERMINAL	1	:*	2	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mylittlebus/library	0	gvim	:gvim -v /var/www/html/mylittlebus/library/config.rb
+pane	arte	5	:TERMINAL II	0	:-	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/Autograph/sites/all/themes/autograph	0	ruby-mri	:/usr/bin/ruby-mri /usr/sbin/compass watch ./
+pane	arte	5	:TERMINAL II	0	:-	2	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/Autograph/sites/all/themes/autograph	1	bash	:
+pane	arte	5	:TERMINAL II	0	:-	3	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/Autograph	0	bash	:
+pane	gdf	1	:SCSS	0	: 	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mylittlebus/library/sass/breakpoints	1	gvim	:gvim -v _mobile.scss
+pane	gdf	2	:HTML	0	: 	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mylittlebus	1	gvim	:gvim -v home.html
+pane	gdf	3	:JS	1	:*	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mylittlebus/my-js	1	gvim	:gvim -v templates.js
+pane	gdf	4	:TERMINAL	0	:-	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mylittlebus/library	0	ruby-mri	:/usr/bin/ruby-mri /usr/sbin/compass watch ./
+pane	gdf	4	:TERMINAL	0	:-	2	:/home/alex	0	gvim	:gvim -v /home/alex/.tmux.conf
+pane	gdf	4	:TERMINAL	0	:-	3	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mylittlebus	1	bash	:
+pane	gdf	5	:TEMPORARY	0	: 	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mylittlebus	1	bash	:
+pane	gdf-as-is	1	:TERMINAL	1	:*	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mylittlebus-as-is/server	0	gvim	:gvim -v server/config.php
+pane	gdf-as-is	1	:TERMINAL	1	:*	2	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mylittlebus-as-is/server	1	bash	:
+pane	gdf-as-is	2	:HTML	0	:-	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mylittlebus-as-is/server	1	bash	:
+window	0	1	1	:*	b4fd,185x51,0,0,0
+window	2	1	1	:*	b4fe,185x51,0,0,1
+window	4	1	1	:*	5ab6,185x51,0,0,17
+window	arte	1	0	: 	b4ff,185x51,0,0,2
+window	arte	2	0	: 	b500,185x51,0,0,3
+window	arte	3	0	: 	b501,185x51,0,0,4
+window	arte	4	1	:*	b51e,185x51,0,0{92x51,0,0,5,92x51,93,0,6}
+window	arte	5	0	:-	f714,185x51,0,0{92x51,0,0,7,92x51,93,0[92x16,93,0,8,92x34,93,17,9]}
+window	gdf	1	0	: 	5ab0,185x51,0,0,11
+window	gdf	2	0	: 	5aaf,185x51,0,0,10
+window	gdf	3	1	:*	5ab4,185x51,0,0,15
+window	gdf	4	0	:-	d291,185x51,0,0{92x51,0,0[92x21,0,0,12,92x29,0,22,14],92x51,93,0,19}
+window	gdf	5	0	: 	daaf,185x51,0,0,20
+window	gdf-as-is	1	1	:*	7055,185x51,0,0{92x51,0,0,21,92x51,93,0,23}
+window	gdf-as-is	2	0	:-	dab1,185x51,0,0,22
+state	gdf-as-is	

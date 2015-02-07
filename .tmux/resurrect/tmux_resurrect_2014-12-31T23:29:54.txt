@@ -1,0 +1,29 @@
+pane	0	1	:bash	1	:*	1	:/home/alex	1	bash	:
+pane	0	1	:bash	1	:*	2	:/home/alex	0	bash	:
+pane	azc	0	:alex@happydev:/	0	:-	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/azc/wp-content/themes/azc	1	gvim	:gvim -v functions.php
+pane	azc	0	:alex@happydev:/	0	:-	2	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/azc/wp-content/themes/azc/library/scss	0	ruby-mri	:/usr/bin/ruby-mri /usr/sbin/compass watch ./
+pane	azc	0	:alex@happydev:/	0	:-	3	:/home/alex	0	gvim	:gvim -v .tmux.conf
+pane	azc	0	:alex@happydev:/	0	:-	4	:/	0	bash	:
+pane	azc	1	:alex@happydev:~	1	:*	1	:/home/alex	1	gvim	:gvim -v .vimrc
+pane	azc	2	:alex@happydev:~/.vim/bundle	0	: 	1	:/home/alex/.vim/bundle	1	bash	:
+pane	greta	1	:HTML	1	:*	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/greta-gpi2d/wp-content/themes/greta-gpi2d/includes	1	gvim	:gvim -v template-fiche-formation.php
+pane	greta	2	:SCSS	0	: 	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/greta-gpi2d/wp-content/themes/greta-gpi2d/library/scss/partials	1	gvim	:gvim -v style.scss
+pane	greta	3	:PROCESSES	0	:-	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/greta-gpi2d/wp-content/themes/greta-gpi2d/library/scss	0	ruby-mri	:/usr/bin/ruby-mri /usr/sbin/compass watch ./
+pane	greta	3	:PROCESSES	0	:-	2	:/home/alex	1	bash	:
+pane	greta	3	:PROCESSES	0	:-	3	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/GRETA/Rendu	0	bash	:
+pane	mutinerie	1	:HTML	1	:*	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mutinerie/wp-content/themes/bones	1	gvim	:gvim -v page-homepage.php
+pane	mutinerie	2	:CSS	0	:-	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mutinerie/wp-content/themes/bones/library/scss/breakpoints	1	gvim	:gvim -v breakpoints/_mobile.scss
+pane	mutinerie	3	:PROCESSES	0	: 	1	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mutinerie/wp-content/themes/bones/library/scss	0	ruby-mri	:/usr/bin/ruby-mri /usr/sbin/compass watch ./
+pane	mutinerie	3	:PROCESSES	0	: 	2	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/MUTINERIE/Revamp	0	bash	:
+pane	mutinerie	3	:PROCESSES	0	: 	3	:/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mutinerie	1	bash	:
+window	0	1	1	:*	3508,185x51,0,0{92x51,0,0,0,92x51,93,0,1}
+window	azc	0	0	:-	f111,185x51,0,0{91x51,0,0[91x34,0,0,2,91x16,0,35,3],93x51,92,0[93x34,92,0,4,93x16,92,35,5]}
+window	azc	1	1	:*	b503,185x51,0,0,6
+window	azc	2	0	: 	b504,185x51,0,0,7
+window	greta	1	1	:*	b505,185x51,0,0,8
+window	greta	2	0	: 	b506,185x51,0,0,9
+window	greta	3	0	:-	e089,185x51,0,0{93x51,0,0[93x5,0,0,10,93x45,0,6,18],91x51,94,0,11}
+window	mutinerie	1	1	:*	5ab1,185x51,0,0,12
+window	mutinerie	2	0	:-	5ab2,185x51,0,0,13
+window	mutinerie	3	0	: 	9b52,185x51,0,0{92x51,0,0[92x9,0,0,14,92x41,0,10,19],92x51,93,0,15}
+state	mutinerie	

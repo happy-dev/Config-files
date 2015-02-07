@@ -1,51 +1,73 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
+" Be iMproved
+set nocompatible   
 
-set number "Display line numbers
-set autochdir "Change current Window's directory to current file's directory. Might trouble the working of sessions
+
+" Automatically detects filetype
+filetype on
+
+
+" Let plugins do what they have to do
+filetype plugin indent on    
+filetype plugin on
+
+
+" Turns on syntax highlighting
+syntax on 
+
+
+" Reloads file edited outside Vim
+set autoread
+
+
+" Set encoding as UTF-8 
+set encoding=utf-8
+set fileencoding=utf-8
+
+
+" Set line ending the Unix way
+set fileformat=unix
+
+
+" When reading a file, try Unix format first for line ending, then Windows
+set fileformats=unix,dos
+
+
+" Display line numbers
+set number 
+
+
+" Changes current Window's directory to current file's directory.
+set autochdir 
+
 
 " Convert Tab into 2 white spaces
 set expandtab
 set tabstop=2
 set shiftwidth=2
 
-" set the runtime path to include Vundle and initialize
+
+" Allow Tab and Shift-Tab to (un)indent text in Visual mode
+vmap <Tab> >gv
+vmap <S-Tab> <gv
+
+
+" No swap file 
+set noswapfile
+
+
+" Set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" let Vundle manage Vundle, required
+
+" Let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+Plugin 'tpope/vim-surround'
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
 
-" plugin from http://vim-scripts.org/vim/scripts.html
-Plugin 'L9'
-
-" Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
-
-" git repos on your local machine (i.e. when working on your own plugin)
-" Plugin 'file:///home/gmarik/path/to/plugin'
-
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-
-" Avoid a name conflict with L9
-" Plugin 'user/L9', {'name': 'newL9'}
-
-" Emmet-Vim is a productivity plugin for HTML & CSS
-Bundle "mattn/emmet-vim"
-
-" " All of your Plugins must be added before the following line
+" All plugins must be added before the following line
 call vundle#end()            " required
-filetype plugin indent on    " required
 
-" To ignore plugin indent changes, instead use:
-filetype plugin on
 
 " Brief help
 " :PluginList          - list configured plugins
@@ -54,8 +76,3 @@ filetype plugin on
 " :PluginClean(!)      - confirm (or auto-approve) removal of unused plugins
 "
 " " see :h vundle for more details or wiki for FAQ
-" " Put your non-Plugin stuff after this line
-map <C-t><up> 	 :tabr<cr>
-map <C-t><down>  :tabl<cr>
-map <C-t><left>  :tabp<cr>
-map <C-t><right> :tabn<cr>

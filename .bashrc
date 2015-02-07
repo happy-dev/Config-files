@@ -3,18 +3,24 @@
 # Aliases
 alias vim='gvim -v'
 
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+
+# I am on the right PATH...
+PATH=$PATH:~/android-studio/bin
+
+
+# Default editor
 export EDITOR=vim
-export HADOOP_INSTALL=/home/alex/hadoop
 
-# User specific aliases and functions
-#export PS1=
 
+# Echos 'whatis' on terminal load
 echo "Did you know that:"; whatis $(ls /bin | shuf -n 1)
 
-#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/home/alex/.gvm/bin/gvm-init.sh" ]] && source "/home/alex/.gvm/bin/gvm-init.sh"
+
+# THIS MUST REMAIN AT THE END OF THE FILE FOR GVM TO WORK
+# [[ -s "/home/alex/.gvm/bin/gvm-init.sh" ]] && source "/home/alex/.gvm/bin/gvm-init.sh"

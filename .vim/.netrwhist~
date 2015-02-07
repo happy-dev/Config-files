@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/mutinerie/wp-content/themes/bones'
+let g:netrw_dirhist_2='/home/alex'
+let g:netrw_dirhist_3='/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/greta-gpi2d/wp-content/themes/greta-gpi2d'
+let g:netrw_dirhist_4='/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/greta-gpi2d/wp-content/themes'
+let g:netrw_dirhist_5='/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/greta-gpi2d/wp-content/themes/greta-gpi2d'
+let g:netrw_dirhist_6='/mnt/4b188c36-e08d-47e7-a76c-8315b18c8cf5/Dropbox/HappyDev/CODE/greta-gpi2d/wp-content/themes/greta-gpi2d/includes'
