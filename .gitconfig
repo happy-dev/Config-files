@@ -1,3 +1,5 @@
 [user]
 	email = alexandre@happy-dev.fr
 	name = Alexandre Bourlier
+[core]
+	whitespace = cr-at-eol
