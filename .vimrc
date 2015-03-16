@@ -68,6 +68,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'othree/javascript-libraries-syntax.vim'
 
 
 " All plugins must be added before the following line
