@@ -6,12 +6,9 @@ set nocompatible
 filetype on
 
 
-" Color scheme
-colorscheme delek
-
-
 " Let plugins do what they have to do
 filetype plugin indent on    
+filetype indent on    
 filetype plugin on
 
 
@@ -64,22 +61,31 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 
+
+
+
 " Let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'NLKNguyen/papercolor-theme'
 
 
 " All plugins must be added before the following line
 call vundle#end()            " required
-
-
 " Brief help
 " :PluginList          - list configured plugins
 " :PluginInstall(!)    - install (update) plugins
 " :PluginSearch(!) foo - search (or refresh cache first) for foo
 " :PluginClean(!)      - confirm (or auto-approve) removal of unused plugins
-
 " " see :h vundle for more details or wiki for FAQ
+
+
+
+
+" Color scheme
+"colorscheme delek
+set background=light
+colorscheme PaperColor
