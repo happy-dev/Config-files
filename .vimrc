@@ -60,10 +60,6 @@ set noswapfile
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-
-
-
-
 " Let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-surround'
@@ -71,6 +67,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'NLKNguyen/papercolor-theme'
+Plugin 'scrooloose/syntastic'
 
 
 " All plugins must be added before the following line
