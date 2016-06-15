@@ -56,6 +56,10 @@ vmap <S-Tab> <gv
 set noswapfile
 
 
+" Set leader key
+let mapleader = " "
+
+
 " Set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -69,6 +73,7 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'scrooloose/syntastic'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'hlissner/vim-multiedit'
 
 
 " All plugins must be added before the following line
