@@ -68,6 +68,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'scrooloose/syntastic'
+Plugin 'terryma/vim-multiple-cursors'
 
 
 " All plugins must be added before the following line
