@@ -74,6 +74,7 @@ Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'scrooloose/syntastic'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'hlissner/vim-multiedit'
+Plugin 'sudar/comments.vim'
 
 
 " All plugins must be added before the following line
